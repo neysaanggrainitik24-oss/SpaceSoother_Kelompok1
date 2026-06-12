@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: fd86bf0ad99cab442a44ad26d6f887d4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1622189460582240771
+    second: peluru_enemhy_0
+  - first:
+      213: 3665892918741349689
+    second: peluru_enemhy_1
+  - first:
+      213: -2094065852548357322
+    second: peluru_enemhy_2
+  - first:
+      213: -8191305482286207417
+    second: peluru_enemhy_3
+  - first:
+      213: 7517265716061238678
+    second: peluru_enemhy_4
+  - first:
+      213: -7354212985816557334
+    second: peluru_enemhy_5
+  - first:
+      213: -3246923213943949748
+    second: peluru_enemhy_6
+  - first:
+      213: 7167130533969720101
+    second: peluru_enemhy_7
+  - first:
+      213: -2695978982270343425
+    second: peluru_enemhy_8
+  - first:
+      213: -2668651592586391113
+    second: peluru_enemhy_9
+  - first:
+      213: -8249913879160513369
+    second: peluru_enemhy_10
+  - first:
+      213: 5302542991393305350
+    second: peluru_enemhy_11
+  - first:
+      213: 1289181049402182228
+    second: peluru_enemhy_12
+  - first:
+      213: -4987258526373634607
+    second: peluru_enemhy_13
+  - first:
+      213: -4097663479141752474
+    second: peluru_enemhy_14
+  - first:
+      213: -8513532627475211405
+    second: peluru_enemhy_15
+  - first:
+      213: 1480593339693265158
+    second: peluru_enemhy_16
+  - first:
+      213: 7417355169093242368
+    second: peluru_enemhy_17
+  - first:
+      213: -8118077781877950219
+    second: peluru_enemhy_18
+  - first:
+      213: 5902049089373181299
+    second: peluru_enemhy_19
+  - first:
+      213: -6228312109477317028
+    second: peluru_enemhy_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: peluru_enemhy_0
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 390
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdec93c743dc79e0800000000000000
+      internalID: -1622189460582240771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_1
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 386
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935b236df2edfd230800000000000000
+      internalID: 3665892918741349689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_2
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 394
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6336492b33260f2e0800000000000000
+      internalID: -2094065852548357322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 265
+        width: 113
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74eee913013a25e80800000000000000
+      internalID: -8191305482286207417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 265
+        width: 104
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6957d003751b25860800000000000000
+      internalID: 7517265716061238678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_5
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 344
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8d6d1f04690f990800000000000000
+      internalID: -7354212985816557334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_6
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 299
+        width: 246
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46b6e33a8c90f2d0800000000000000
+      internalID: -3246923213943949748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 261
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523fe106f33c67360800000000000000
+      internalID: 7167130533969720101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_8
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 207
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff66bd74665f59ad0800000000000000
+      internalID: -2695978982270343425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_9
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 203
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b19b92048b07fad0800000000000000
+      internalID: -2668651592586391113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 148
+        width: 91
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac921d690b628d80800000000000000
+      internalID: -8249913879160513369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 173
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6033c30b1ca669940800000000000000
+      internalID: 5302542991393305350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_12
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 235
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a48c4855714e110800000000000000
+      internalID: 1289181049402182228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 236
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd167c3bc2b9cab0800000000000000
+      internalID: -4987258526373634607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_14
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 153
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6612aaca6cc2227c0800000000000000
+      internalID: -4097663479141752474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_15
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 103
+        width: 296
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b54a39e2bd9d980800000000000000
+      internalID: -8513532627475211405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_16
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 135
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601f9354ccf1c8410800000000000000
+      internalID: 1480593339693265158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_17
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 35
+        width: 308
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ec5ba3a3dbfe660800000000000000
+      internalID: 7417355169093242368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_18
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 123
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f87c20d44bc65f80800000000000000
+      internalID: -8118077781877950219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 23
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375910b506a48e150800000000000000
+      internalID: 5902049089373181299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peluru_enemhy_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 6
+        width: 254
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56375ca2279099a0800000000000000
+      internalID: -6228312109477317028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      peluru_enemhy_0: -1622189460582240771
+      peluru_enemhy_1: 3665892918741349689
+      peluru_enemhy_10: -8249913879160513369
+      peluru_enemhy_11: 5302542991393305350
+      peluru_enemhy_12: 1289181049402182228
+      peluru_enemhy_13: -4987258526373634607
+      peluru_enemhy_14: -4097663479141752474
+      peluru_enemhy_15: -8513532627475211405
+      peluru_enemhy_16: 1480593339693265158
+      peluru_enemhy_17: 7417355169093242368
+      peluru_enemhy_18: -8118077781877950219
+      peluru_enemhy_19: 5902049089373181299
+      peluru_enemhy_2: -2094065852548357322
+      peluru_enemhy_20: -6228312109477317028
+      peluru_enemhy_3: -8191305482286207417
+      peluru_enemhy_4: 7517265716061238678
+      peluru_enemhy_5: -7354212985816557334
+      peluru_enemhy_6: -3246923213943949748
+      peluru_enemhy_7: 7167130533969720101
+      peluru_enemhy_8: -2695978982270343425
+      peluru_enemhy_9: -2668651592586391113
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
