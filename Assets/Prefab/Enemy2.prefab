@@ -183,6 +183,7 @@ MonoBehaviour:
   hp: 5
   scoreValue: 10
   moveSpeed: 3
+  explosionPrefab: {fileID: 6200238289139396, guid: 885bbf6673bcda048ae8d13e83042331, type: 3}
   bulletPrefab: {fileID: 4052709333027443331, guid: ed081736d9b16bb4ba349c05969fa497, type: 3}
   firePoint: {fileID: 2158683682528089088}
   fireRate: 1.5

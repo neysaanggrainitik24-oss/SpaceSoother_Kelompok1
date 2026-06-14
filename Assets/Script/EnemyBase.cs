@@ -1,48 +1,60 @@
 using UnityEngine;
 using System.Collections;
 
-/// <summary>
-/// Base class untuk semua enemy. Berisi logika umum yang digunakan
-/// oleh Enemy1, Enemy2, dan Enemy3.
-/// </summary>
 public abstract class BaseEnemy : MonoBehaviour
 {
     [Header("Base Enemy Stats")]
-    public int hp          = 10;
-    public int scoreValue  = 10;
+    public int hp = 10;
+    public int scoreValue = 10;
     public float moveSpeed = 4f;
 
-    protected Rigidbody2D    rb;
+    [Header("Effects")]
+    public GameObject explosionPrefab;
+
+    protected Rigidbody2D rb;
     protected SpriteRenderer sr;
-    protected Color          originalColor;
+    protected Color originalColor;
 
     protected virtual void Start()
     {
-        rb            = GetComponent<Rigidbody2D>();
-        sr            = GetComponent<SpriteRenderer>();
-        originalColor = sr.color;
+        rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
 
-        // Gerakan default: turun ke bawah
+        if (sr != null)
+            originalColor = sr.color;
+
+        // Gerakan default turun ke bawah
         if (rb != null)
             rb.linearVelocity = new Vector2(0, -moveSpeed);
 
-        OnStart(); // hook untuk child class
+        OnStart();
     }
 
     protected virtual void Update()
     {
-        OnUpdate(); // hook untuk child class
+        OnUpdate();
     }
 
-    protected virtual void OnStart()  { }
+    protected virtual void OnStart() { }
     protected virtual void OnUpdate() { }
 
     protected virtual void OnDeath()
     {
-        // Lebih aman menggunakan singleton daripada FindFirstObjectByType setiap kali mati
+        // Tambah score
         if (ScoreManager.instance != null)
             ScoreManager.instance.AddScore(scoreValue);
 
+        // Spawn animasi ledakan
+        if (explosionPrefab != null)
+        {
+            Instantiate(
+                explosionPrefab,
+                transform.position,
+                Quaternion.identity
+            );
+        }
+
+        // Hancurkan enemy
         Destroy(gameObject);
     }
 
@@ -51,7 +63,9 @@ public abstract class BaseEnemy : MonoBehaviour
         if (damage <= 0) return;
 
         hp -= damage;
-        StartCoroutine(HitFlash());
+
+        if (hp > 0)
+            StartCoroutine(HitFlash());
 
         if (hp <= 0)
             OnDeath();
@@ -62,7 +76,10 @@ public abstract class BaseEnemy : MonoBehaviour
         if (sr == null) yield break;
 
         sr.color = Color.red;
+
         yield return new WaitForSeconds(0.1f);
-        sr.color = originalColor;
+
+        if (sr != null)
+            sr.color = originalColor;
     }
 }

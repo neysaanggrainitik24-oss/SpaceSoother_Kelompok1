@@ -109,6 +109,7 @@ MonoBehaviour:
   hp: 5
   scoreValue: 10
   moveSpeed: 4
+  explosionPrefab: {fileID: 6200238289139396, guid: 885bbf6673bcda048ae8d13e83042331, type: 3}
 --- !u!50 &5676517016452318474
 Rigidbody2D:
   serializedVersion: 5

@@ -1,0 +1,776 @@
+fileFormatVersion: 2
+guid: 0a9ec8ce68a56524b88b4fcfd75ca36f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6243951059763765252
+    second: efek_ledakan_0
+  - first:
+      213: 8959147269993508682
+    second: efek_ledakan_1
+  - first:
+      213: 5534866076362514181
+    second: efek_ledakan_2
+  - first:
+      213: -872860320862356084
+    second: efek_ledakan_3
+  - first:
+      213: 2859386811993687000
+    second: efek_ledakan_4
+  - first:
+      213: -5242399224617133788
+    second: efek_ledakan_5
+  - first:
+      213: 526707339589812248
+    second: efek_ledakan_6
+  - first:
+      213: 1756607823249137082
+    second: efek_ledakan_7
+  - first:
+      213: -3713150325623302392
+    second: efek_ledakan_8
+  - first:
+      213: 430275591393136157
+    second: efek_ledakan_9
+  - first:
+      213: 8616470980137824137
+    second: efek_ledakan_10
+  - first:
+      213: -5991071874088169749
+    second: efek_ledakan_11
+  - first:
+      213: 137690806957203181
+    second: efek_ledakan_12
+  - first:
+      213: 7427302384540490337
+    second: efek_ledakan_13
+  - first:
+      213: 5314020483387547764
+    second: efek_ledakan_14
+  - first:
+      213: -4775056499026359963
+    second: efek_ledakan_15
+  - first:
+      213: -5540213726624258805
+    second: efek_ledakan_16
+  - first:
+      213: 2379322493904983392
+    second: efek_ledakan_17
+  - first:
+      213: 6926856042327732503
+    second: efek_ledakan_18
+  - first:
+      213: 5502022493923386212
+    second: efek_ledakan_19
+  - first:
+      213: 570272111296608886
+    second: efek_ledakan_20
+  - first:
+      213: 6238288284290522568
+    second: efek_ledakan_21
+  - first:
+      213: 690478476476065155
+    second: efek_ledakan_22
+  - first:
+      213: -2709781906767312051
+    second: efek_ledakan_23
+  - first:
+      213: 3932360763326576375
+    second: efek_ledakan_24
+  - first:
+      213: 7298460360750953689
+    second: efek_ledakan_25
+  - first:
+      213: -6263261526019979380
+    second: efek_ledakan_26
+  - first:
+      213: -7229178445735625149
+    second: efek_ledakan_27
+  - first:
+      213: 8663932733408600922
+    second: efek_ledakan_28
+  - first:
+      213: -9174553054320645659
+    second: efek_ledakan_29
+  - first:
+      213: -6644491705187561606
+    second: efek_ledakan_30
+  - first:
+      213: -5162828635069768517
+    second: efek_ledakan_31
+  - first:
+      213: -6220184156013614299
+    second: efek_ledakan_32
+  - first:
+      213: 3303366320943853250
+    second: efek_ledakan_33
+  - first:
+      213: -6800439874020005042
+    second: efek_ledakan_34
+  - first:
+      213: -8943006974359504222
+    second: efek_ledakan_35
+  - first:
+      213: -4559463463852331806
+    second: efek_ledakan_36
+  - first:
+      213: -7853142840627208126
+    second: efek_ledakan_37
+  - first:
+      213: 6433825822868483451
+    second: efek_ledakan_38
+  - first:
+      213: -6196817837032918511
+    second: efek_ledakan_39
+  - first:
+      213: -7746062340851414352
+    second: efek_ledakan_40
+  - first:
+      213: 3438259031432426146
+    second: efek_ledakan_41
+  - first:
+      213: -336591953369385621
+    second: efek_ledakan_42
+  - first:
+      213: -2553322151872377296
+    second: efek_ledakan_43
+  - first:
+      213: 8667502334087647737
+    second: efek_ledakan_44
+  - first:
+      213: 1726934534328754412
+    second: efek_ledakan_45
+  - first:
+      213: 4691355792782896789
+    second: efek_ledakan_46
+  - first:
+      213: -4127200885420424879
+    second: efek_ledakan_47
+  - first:
+      213: -7931819211504210854
+    second: efek_ledakan_48
+  - first:
+      213: 2607770495662361840
+    second: efek_ledakan_49
+  - first:
+      213: -8078384406115408537
+    second: efek_ledakan_50
+  - first:
+      213: -5036572907929069369
+    second: efek_ledakan_51
+  - first:
+      213: 34381436252089299
+    second: efek_ledakan_52
+  - first:
+      213: 968798885145266679
+    second: efek_ledakan_53
+  - first:
+      213: -3458803216839850300
+    second: efek_ledakan_54
+  - first:
+      213: -6351060822161784940
+    second: efek_ledakan_55
+  - first:
+      213: 5494432895185002688
+    second: efek_ledakan_56
+  - first:
+      213: -1844721406605565809
+    second: efek_ledakan_57
+  - first:
+      213: -3775269570841800277
+    second: efek_ledakan_58
+  - first:
+      213: 680149352199368771
+    second: efek_ledakan_59
+  - first:
+      213: 6477506449335370334
+    second: efek_ledakan_60
+  - first:
+      213: -1469187108721107164
+    second: efek_ledakan_61
+  - first:
+      213: 7528416512577835045
+    second: efek_ledakan_62
+  - first:
+      213: 5192345235441304243
+    second: efek_ledakan_63
+  - first:
+      213: 3286938547998619989
+    second: efek_ledakan_64
+  - first:
+      213: -5312623982247004043
+    second: efek_ledakan_65
+  - first:
+      213: 2784736355125315208
+    second: efek_ledakan_66
+  - first:
+      213: -8516321069444155741
+    second: efek_ledakan_67
+  - first:
+      213: -5054586883049725304
+    second: efek_ledakan_68
+  - first:
+      213: 7371406340346629245
+    second: efek_ledakan_69
+  - first:
+      213: 3444185191482246257
+    second: efek_ledakan_70
+  - first:
+      213: 5921837634320064043
+    second: efek_ledakan_71
+  - first:
+      213: -5624752064211704137
+    second: efek_ledakan_72
+  - first:
+      213: 889771772100871351
+    second: efek_ledakan_73
+  - first:
+      213: -5429026910573153457
+    second: efek_ledakan_74
+  - first:
+      213: 7467659956261286790
+    second: efek_ledakan_75
+  - first:
+      213: 3597551097668521572
+    second: efek_ledakan_76
+  - first:
+      213: -6253420065250794454
+    second: efek_ledakan_77
+  - first:
+      213: -8758078358534928210
+    second: efek_ledakan_78
+  - first:
+      213: -7629204183203336478
+    second: efek_ledakan_79
+  - first:
+      213: -4287462638198151836
+    second: efek_ledakan_80
+  - first:
+      213: -2258820216020121895
+    second: efek_ledakan_81
+  - first:
+      213: 1267059562004479147
+    second: efek_ledakan_82
+  - first:
+      213: -4333179508823280496
+    second: efek_ledakan_83
+  - first:
+      213: 7424449830264028412
+    second: efek_ledakan_84
+  - first:
+      213: -2144984703429759978
+    second: efek_ledakan_85
+  - first:
+      213: 2509047673757572710
+    second: efek_ledakan_86
+  - first:
+      213: -4360230496295061325
+    second: efek_ledakan_87
+  - first:
+      213: 9088973104537634993
+    second: efek_ledakan_88
+  - first:
+      213: -8251169322057158336
+    second: efek_ledakan_89
+  - first:
+      213: -5853113380777082178
+    second: efek_ledakan_90
+  - first:
+      213: 2569591166544419696
+    second: efek_ledakan_91
+  - first:
+      213: 461229822384813627
+    second: efek_ledakan_92
+  - first:
+      213: 6243537465375555928
+    second: efek_ledakan_93
+  - first:
+      213: -3212520345195123682
+    second: efek_ledakan_94
+  - first:
+      213: -3582012204355731615
+    second: efek_ledakan_95
+  - first:
+      213: -1030509146840965782
+    second: efek_ledakan_96
+  - first:
+      213: 1298133732952162758
+    second: efek_ledakan_97
+  - first:
+      213: -2897689864848611444
+    second: efek_ledakan_98
+  - first:
+      213: -7344589630568011651
+    second: efek_ledakan_99
+  - first:
+      213: -99696334413599285
+    second: efek_ledakan_100
+  - first:
+      213: 7858579325991445794
+    second: efek_ledakan_101
+  - first:
+      213: 175879841260789315
+    second: efek_ledakan_102
+  - first:
+      213: -8171603517277304906
+    second: efek_ledakan_103
+  - first:
+      213: 3475744387980201816
+    second: efek_ledakan_104
+  - first:
+      213: 1184118664671338375
+    second: efek_ledakan_105
+  - first:
+      213: -8921340841007350097
+    second: efek_ledakan_106
+  - first:
+      213: 275684975977038953
+    second: efek_ledakan_107
+  - first:
+      213: -1092881958567960035
+    second: efek_ledakan_108
+  - first:
+      213: -243322106633943470
+    second: efek_ledakan_109
+  - first:
+      213: 5656414655210584656
+    second: efek_ledakan_110
+  - first:
+      213: 6182465942067226844
+    second: efek_ledakan_111
+  - first:
+      213: -5971919986356972463
+    second: efek_ledakan_112
+  - first:
+      213: -5616899934535432937
+    second: efek_ledakan_113
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: efek_ledakan_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 458
+        width: 136
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400a4203868f6a650800000000000000
+      internalID: 6243951059763765252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efek_ledakan_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 458
+        width: 136
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4faf5679f8455c70800000000000000
+      internalID: 8959147269993508682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efek_ledakan_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 458
+        width: 136
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f92f81f5bcfcc40800000000000000
+      internalID: 5534866076362514181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efek_ledakan_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 306
+        width: 136
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d377ca92af2e3f0800000000000000
+      internalID: -872860320862356084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efek_ledakan_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 306
+        width: 136
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d30254e7259ea720800000000000000
+      internalID: 2859386811993687000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efek_ledakan_5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 306
+        width: 136
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42999ed3ea14f37b0800000000000000
+      internalID: -5242399224617133788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efek_ledakan_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 136
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81087d4e88d3f4700800000000000000
+      internalID: 526707339589812248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efek_ledakan_7
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 154
+        width: 136
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abddf622289b06810800000000000000
+      internalID: 1756607823249137082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efek_ledakan_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 154
+        width: 136
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807d893b37d387cc0800000000000000
+      internalID: -3713150325623302392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efek_ledakan_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 136
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e4284ee55a8f500800000000000000
+      internalID: 430275591393136157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efek_ledakan_10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2
+        width: 136
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98fa39454bad39770800000000000000
+      internalID: 8616470980137824137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efek_ledakan_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2
+        width: 136
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee04216fdf6bdca0800000000000000
+      internalID: -5991071874088169749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a64e68a36a3ec5f41902199073ff640f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":4.0},"gridSpriteSize":{"x":136.0,"y":152.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      efek_ledakan_0: 6243951059763765252
+      efek_ledakan_1: 8959147269993508682
+      efek_ledakan_10: 8616470980137824137
+      efek_ledakan_11: -5991071874088169749
+      efek_ledakan_2: 5534866076362514181
+      efek_ledakan_3: -872860320862356084
+      efek_ledakan_4: 2859386811993687000
+      efek_ledakan_5: -5242399224617133788
+      efek_ledakan_6: 526707339589812248
+      efek_ledakan_7: 1756607823249137082
+      efek_ledakan_8: -3713150325623302392
+      efek_ledakan_9: 430275591393136157
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
