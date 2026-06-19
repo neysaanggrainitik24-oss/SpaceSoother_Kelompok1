@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 665136174311870796}
   - component: {fileID: 6738683601321843441}
   - component: {fileID: 7259901427196497308}
-  - component: {fileID: 1570153857581547596}
+  - component: {fileID: -4773401736573915031}
   - component: {fileID: 5523185747380199441}
   m_Layer: 0
   m_Name: EnemyBullet
@@ -121,7 +121,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1570153857581547596
+--- !u!114 &-4773401736573915031
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,12 +130,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4052709333027443331}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3138b91e17582af4da6a766fa205de4e, type: 3}
+  m_Script: {fileID: 11500000, guid: bb2fe2c065ff5604b91a225b28e3759f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyBullet
-  speed: 7
+  speed: 8
   damage: 1
-  lifetime: 8
+  lifetime: 5
 --- !u!61 &5523185747380199441
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7064640068732016303}
   - component: {fileID: 644470098850994446}
   - component: {fileID: 6469420208154586334}
-  - component: {fileID: 2723884211525784668}
+  - component: {fileID: -8015047405385717622}
   m_Layer: 0
   m_Name: Enemy2
   m_TagString: Enemy
@@ -152,7 +152,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -168,7 +168,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.38, y: 2.204}
   m_EdgeRadius: 0
---- !u!114 &2723884211525784668
+--- !u!114 &-8015047405385717622
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -182,13 +182,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemy2
   hp: 10
   scoreValue: 10
-  moveSpeed: 3
+  moveSpeed: 4
   explosionPrefab: {fileID: 6200238289139396, guid: 885bbf6673bcda048ae8d13e83042331, type: 3}
   bulletPrefab: {fileID: 4052709333027443331, guid: ed081736d9b16bb4ba349c05969fa497, type: 3}
-  firePoint: {fileID: 2158683682528089088}
-  fireRate: 1.5
-  enemy1Prefab: {fileID: 0}
-  summonInterval: 4
+  firePoint: {fileID: 2725528530253086091, guid: 02c00d718ad260348a1b2ddd2555dd89, type: 3}
+  fireRate: 2.3
+  enemy1Prefab: {fileID: 5991765986233442303}
+  summonInterval: 14
   summonOffsetY: 1.5
 --- !u!1001 &4045968176577096075
 PrefabInstance:

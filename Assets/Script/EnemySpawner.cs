@@ -11,7 +11,7 @@ public class EnemySpawner : MonoBehaviour
     public float spawnRatePhase1 = 1.1f;
     public float spawnRatePhase2 = 0.85f;
 
-    [Header("Enemy3 Settings")]
+    [Header("Enemy3 (Boss) Settings")]
     public float enemy3SpawnRate = 0.3f;
     public float enemy3Speed = 2f;
 
@@ -22,24 +22,27 @@ public class EnemySpawner : MonoBehaviour
 
     private float nextSpawnTime;
     private float nextEnemy3Time;
+    
 
     void Update()
     {
         if (ScoreManager.instance == null) return;
 
-        if (ScoreManager.instance.currentPhase == ScoreManager.GamePhase.Phase1)
+        switch (ScoreManager.instance.currentPhase)
         {
-            SpawnEnemy1();
-        }
-        else if (ScoreManager.instance.currentPhase == ScoreManager.GamePhase.Phase2)
-        {
-            SpawnEnemy2();
-        }
-        else if (ScoreManager.instance.currentPhase == ScoreManager.GamePhase.Phase3)
-        {
-            SpawnEnemy3();
+            case ScoreManager.GamePhase.Phase1:
+                SpawnEnemy1();
+                break;
+            case ScoreManager.GamePhase.Phase2:
+                SpawnEnemy2();
+                break;
+            case ScoreManager.GamePhase.Phase3:
+                SpawnEnemy3();
+                break;
         }
     }
+
+    
 
     void SpawnEnemy1()
     {
@@ -70,10 +73,10 @@ public class EnemySpawner : MonoBehaviour
 
         GameObject enemy3Obj = Instantiate(enemy3Prefab, spawnPos, Quaternion.identity);
 
-        BaseEnemy enemy = enemy3Obj.GetComponent<BaseEnemy>();
+        EnemyBase enemy = enemy3Obj.GetComponent<EnemyBase>();
         if (enemy != null)
         {
-            enemy.moveSpeed = enemy3Speed;
+            enemy.SetMoveSpeed(enemy3Speed);   // ← Pakai method ini
         }
 
         nextEnemy3Time = Time.time + enemy3SpawnRate;

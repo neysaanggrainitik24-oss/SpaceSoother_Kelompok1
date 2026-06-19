@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public abstract class BaseEnemy : MonoBehaviour
+public abstract class EnemyBase : MonoBehaviour
 {
     [Header("Base Enemy Stats")]
     public int hp = 10;
@@ -15,71 +15,77 @@ public abstract class BaseEnemy : MonoBehaviour
     protected SpriteRenderer sr;
     protected Color originalColor;
 
-    protected virtual void Start()
+    protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        if (sr != null) originalColor = sr.color;
+    }
 
-        if (sr != null)
-            originalColor = sr.color;
-
-        // Gerakan default turun ke bawah
+    protected virtual void Start()
+    {
         if (rb != null)
             rb.linearVelocity = new Vector2(0, -moveSpeed);
 
         OnStart();
     }
 
-    protected virtual void Update()
-    {
-        OnUpdate();
-    }
+    protected virtual void Update() => OnUpdate();
 
     protected virtual void OnStart() { }
     protected virtual void OnUpdate() { }
 
     protected virtual void OnDeath()
     {
-        // Tambah score
         if (ScoreManager.instance != null)
             ScoreManager.instance.AddScore(scoreValue);
 
-        // Spawn animasi ledakan
         if (explosionPrefab != null)
-        {
-            Instantiate(
-                explosionPrefab,
-                transform.position,
-                Quaternion.identity
-            );
-        }
+            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
 
-        // Hancurkan enemy
         Destroy(gameObject);
     }
 
-    public virtual void TakeDamage(int damage)
-    {
-        if (damage <= 0) return;
+public virtual void TakeDamage(int damage)
+{
+    if (damage <= 0) return;
 
-        hp -= damage;
+    hp -= damage;
 
-        if (hp > 0)
-            StartCoroutine(HitFlash());
-
-        if (hp <= 0)
-            OnDeath();
-    }
+    if (hp > 0)
+        StartCoroutine(HitFlash());
+    else
+        OnDeath();
+}
 
     protected IEnumerator HitFlash()
     {
         if (sr == null) yield break;
 
         sr.color = Color.red;
-
         yield return new WaitForSeconds(0.1f);
-
-        if (sr != null)
-            sr.color = originalColor;
+        if (sr != null) sr.color = originalColor;
     }
+
+    public void SetVelocity(float speed)
+{
+    if (rb != null)
+        rb.linearVelocity = new Vector2(0, -speed);
+}
+
+public void SetMoveSpeed(float newSpeed)
+{
+    moveSpeed = newSpeed;
+    SetVelocity(newSpeed);
+}
+protected virtual void OnTriggerEnter2D(Collider2D other)
+{
+    if (other.CompareTag("PlayerBullet"))
+    {
+        PlayerBullet bullet = other.GetComponent<PlayerBullet>();
+        int damageAmount = bullet != null ? bullet.damage : 1;
+        TakeDamage(damageAmount);
+    }
+}
+
 }

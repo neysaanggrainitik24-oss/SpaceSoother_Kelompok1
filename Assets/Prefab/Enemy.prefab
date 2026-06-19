@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3564519649179716968}
   - component: {fileID: 9117295886852671893}
-  - component: {fileID: 4268641145936278019}
   - component: {fileID: 5676517016452318474}
   - component: {fileID: 8530295029664772871}
+  - component: {fileID: -3078561942909574998}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -94,22 +94,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &4268641145936278019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5769765090300505951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3f76fe7b32ddf948b80b1be1bf63f26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  hp: 5
-  scoreValue: 10
-  moveSpeed: 4
-  explosionPrefab: {fileID: 6200238289139396, guid: 885bbf6673bcda048ae8d13e83042331, type: 3}
 --- !u!50 &5676517016452318474
 Rigidbody2D:
   serializedVersion: 5
@@ -167,7 +151,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -183,3 +167,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.572, y: 1.6}
   m_EdgeRadius: 0
+--- !u!114 &-3078561942909574998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5769765090300505951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f76fe7b32ddf948b80b1be1bf63f26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  hp: 10
+  scoreValue: 10
+  moveSpeed: 4
+  explosionPrefab: {fileID: 6200238289139396, guid: 885bbf6673bcda048ae8d13e83042331, type: 3}

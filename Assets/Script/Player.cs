@@ -16,10 +16,9 @@ public class Player : MonoBehaviour
     public int currentLives = 3;
 
     [Header("Respawn Settings")]
-    public float respawnTime = 2f;
     public Vector3 spawnPosition = new Vector3(0, -3f, 0);
 
-    public bool isDead = false; 
+    public bool isDead = false;
 
     private Rigidbody2D rb;
     private SpriteRenderer sr;
@@ -27,20 +26,30 @@ public class Player : MonoBehaviour
     private bool isInvulnerable = false;
     private float invulnerableTime = 1.5f;
 
-   void Start()
+    void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        
+        // === PERBAIKAN PENTING ===
+        if (rb != null)
+        {
+            rb.freezeRotation = true;           // Mencegah player muter-muter
+            rb.gravityScale = 0f;
+            rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+        }
+
         currentLives = maxLives;
         transform.position = spawnPosition;
 
-        // TAMBAHAN: Update UI nyawa saat game pertama kali dijalankan
+        // Update UI nyawa
         UIManager uiManager = FindFirstObjectByType<UIManager>();
         if (uiManager != null)
         {
             uiManager.UpdateLifeUI(currentLives);
         }
     }
+
     void Update()
     {
         if (isDead) return;
@@ -60,7 +69,6 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))    moveY = 1;
         if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))  moveY = -1;
 
-        // Antisipasi versi Unity: Menggunakan .velocity agar aman di semua versi Unity
         if (rb != null)
         {
             rb.linearVelocity = new Vector2(moveX * moveSpeed, moveY * moveSpeed);
@@ -91,14 +99,12 @@ public class Player : MonoBehaviour
         }
     }
 
-  public void TakeDamage(int damage = 1)
+    public void TakeDamage(int damage = 1)
     {
         if (isDead || isInvulnerable) return;
 
         currentLives -= damage;
-        Debug.Log($"Player kena damage! Nyawa tersisa: {currentLives}/{maxLives}");
 
-        // TAMBAHAN: Update teks UI Nyawa setiap kali Player kena hit
         UIManager uiManager = FindFirstObjectByType<UIManager>();
         if (uiManager != null)
         {
@@ -132,17 +138,11 @@ public class Player : MonoBehaviour
     void Die()
     {
         isDead = true;
-        Debug.Log("GAME OVER - Player Mati!");
         gameObject.SetActive(false);
 
         UIManager uiManager = FindFirstObjectByType<UIManager>();
         if (uiManager != null)
             uiManager.ShowGameOver();
-    }
-
-    private void LoadGameOverScene()
-    {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
     }
 
     public void Respawn()
@@ -153,7 +153,8 @@ public class Player : MonoBehaviour
         gameObject.SetActive(true);
         transform.position = spawnPosition;
         
-        if (rb != null) rb.linearVelocity = Vector2.zero;
+        if (rb != null) 
+            rb.linearVelocity = Vector2.zero;
         
         StartCoroutine(InvulnerableFlash());
     }
@@ -170,9 +171,9 @@ public class Player : MonoBehaviour
             TakeDamage(1);
 
             // Hancurkan enemy saat tabrakan
-            if (other.TryGetComponent<Enemy>(out Enemy e1)) e1.TakeDamage(999);
-            if (other.TryGetComponent<Enemy2>(out Enemy2 e2)) e2.TakeDamage(999);
-            if (other.TryGetComponent<Enemy3>(out Enemy3 e3)) e3.TakeDamage(999);
+            EnemyBase enemy = other.GetComponent<EnemyBase>();
+            if (enemy != null)
+                enemy.TakeDamage(999);
         }
 
         // Kena Peluru Enemy

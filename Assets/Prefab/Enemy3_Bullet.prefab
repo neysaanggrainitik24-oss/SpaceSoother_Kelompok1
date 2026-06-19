@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2226431944346915548}
   - component: {fileID: 7860172931990359161}
   - component: {fileID: 5600620218689993395}
-  - component: {fileID: 3040016527193178391}
+  - component: {fileID: 4424087257133476485}
   m_Layer: 0
   m_Name: Enemy3_Bullet
   m_TagString: EnemyBullet
@@ -167,7 +167,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.72, y: 2.148}
   m_EdgeRadius: 0
---- !u!114 &3040016527193178391
+--- !u!114 &4424087257133476485
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -176,9 +176,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3457357974137838722}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc646ec8682e5714480ce287fcef69d4, type: 3}
+  m_Script: {fileID: 11500000, guid: bb2fe2c065ff5604b91a225b28e3759f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Enemy3_Bullet
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyBullet
   speed: 8
   damage: 1
-  lifetime: 4
+  lifetime: 5

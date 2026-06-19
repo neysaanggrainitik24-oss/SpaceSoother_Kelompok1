@@ -1,11 +1,11 @@
 using UnityEngine;
 
-public class Enemy2_Bullet : MonoBehaviour
+public class EnemyBullet : MonoBehaviour
 {
-    [Header("Enemy2 Bullet Settings")]
-    public float speed = 9f;
+    [Header("Enemy Bullet Settings")]
+    public float speed = 8f;
     public int damage = 1;
-    public float lifetime = 6f;
+    public float lifetime = 5f;
 
     private Rigidbody2D rb;
 
@@ -26,19 +26,22 @@ public class Enemy2_Bullet : MonoBehaviour
         Destroy(gameObject, lifetime);
     }
 
-    public void Initialize(Vector2 direction)
+    public void Initialize(Vector2 direction, float customSpeed = -1f, int customDamage = -1)
     {
+        if (customSpeed > 0) speed = customSpeed;
+        if (customDamage > 0) damage = customDamage;
+
         if (rb != null && direction.sqrMagnitude > 0.01f)
         {
             rb.linearVelocity = direction.normalized * speed;
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.collider.CompareTag("Player"))
         {
-            Player player = other.GetComponent<Player>();
+            Player player = collision.collider.GetComponent<Player>();
             if (player != null)
                 player.TakeDamage(damage);
 
@@ -46,7 +49,10 @@ public class Enemy2_Bullet : MonoBehaviour
             return;
         }
 
-        if (!other.CompareTag("Enemy") && !other.CompareTag("Enemy2") && !other.CompareTag("Enemy3"))
+        // Hancur jika bukan enemy atau boundary
+        if (!collision.collider.CompareTag("Enemy") && 
+            !collision.collider.CompareTag("Enemy2") && 
+            !collision.collider.CompareTag("Enemy3"))
         {
             Destroy(gameObject);
         }
