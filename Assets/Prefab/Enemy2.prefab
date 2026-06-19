@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28e889c00e1a7464584f0c82fe15fd26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy2
-  hp: 5
+  hp: 10
   scoreValue: 10
   moveSpeed: 3
   explosionPrefab: {fileID: 6200238289139396, guid: 885bbf6673bcda048ae8d13e83042331, type: 3}

@@ -154,9 +154,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8494dec9116b494f8e1decccee70987, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy3
-  hp: 5
+  hp: 20
   scoreValue: 10
-  moveSpeed: 4
+  moveSpeed: 8
   explosionPrefab: {fileID: 6200238289139396, guid: 885bbf6673bcda048ae8d13e83042331, type: 3}
   bulletPrefab: {fileID: 3457357974137838722, guid: 58ad6dae3374e244f933a82c1d2d54f3, type: 3}
   firePoint1: {fileID: 1057424400334420208}
