@@ -2547,7 +2547,6 @@ MonoBehaviour:
   fireRate: 0.25
   maxLives: 3
   currentLives: 0
-  respawnTime: 3
   spawnPosition: {x: 0, y: -3, z: 0}
   isDead: 0
 --- !u!50 &1469461707

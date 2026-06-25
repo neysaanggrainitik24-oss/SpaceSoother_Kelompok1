@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
         // === PERBAIKAN PENTING ===
         if (rb != null)
         {
-            rb.freezeRotation = true;           // Mencegah player muter-muter
+            rb.freezeRotation = true;           
             rb.gravityScale = 0f;
             rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         }

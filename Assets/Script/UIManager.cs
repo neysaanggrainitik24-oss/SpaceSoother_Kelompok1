@@ -38,12 +38,7 @@ public class UIManager : MonoBehaviour
         {
             // Kamu bisa pakai teks biasa:
             lifeTextDisplay.text = "" + currentLives;
-
-            // ATAU kalau mau pakai simbol hati/karakter (opsional):
-            // string hearts = "";
-            // for(int i = 0; i < currentLives; i++) hearts += "❤️";
-            // lifeTextDisplay.text = hearts;
-        }
+    }
     }
 
     public void PlayGame()
